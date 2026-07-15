@@ -1,7 +1,21 @@
 import React from "react";
 
 const App = () => {
-  return <div></div>;
+  return (
+    <main>
+      <div className="pattern">
+        <div className="wrapper">
+          <header>
+            <h1>
+              Find <span className="text-gradient">Movies</span> You'll enjoy
+              Without the Hassle
+            </h1>
+          </header>
+          <p>search</p>
+        </div>
+      </div>
+    </main>
+  );
 };
 
 export default App;
