@@ -1,4 +1,5 @@
 import React from "react";
+import Search from "./components/search.jsx";
 
 const App = () => {
   return (
@@ -12,7 +13,7 @@ const App = () => {
             Without the Hassle
           </h1>
         </header>
-        <p>search</p>
+        <Search />
       </div>
     </main>
   );
